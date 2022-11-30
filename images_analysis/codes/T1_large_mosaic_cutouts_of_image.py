@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from astropy.io import fits
 
-large_image= fits.open('/Users/DuongHoang/Research499/Advanced_Image_Analysis/data/large_mosaic.fits', memmap=True)
+large_image= fits.open('.../data/large_mosaic.fits', memmap=True)
 large_image_data = large_image[0].data
 large_image_header=large_image[0].header
 
