@@ -3,7 +3,7 @@ from astropy.io import fits
 import numpy as np
 import sep
 
-large_image= fits.open('/Users/DuongHoang/Research499/Advanced_Image_Analysis/data/cutout_image.fits', memmap=True)
+large_image= fits.open('.../data/cutout_image.fits', memmap=True)
 image_data =large_image[0].data
 byte_swaped_data = image_data.byteswap().newbyteorder() #data of the image that we want to extract the source
 #computing the global background of the image, above which sources will be identified in the cutout image
