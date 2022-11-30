@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 import sep
 import numpy as np
-large_image= fits.open('/Users/DuongHoang/Research499/Advanced_Image_Analysis/data/large_mosaic.fits', memmap=True)
+large_image= fits.open('.../data/large_mosaic.fits', memmap=True)
 large_image_data = large_image[0].data
 large_image_header=large_image[0].header
 byte_swaped_data = large_image_data.byteswap().newbyteorder() #data of the image that we want to extract the source
