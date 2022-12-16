@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 import numpy as np
 import sep
-large_image = fits.open('...data/postage_stamp.fits',memmap=True)
+large_image = fits.open('.../data/postage_stamp.fits',memmap=True)
 #memmap will ensure not to overload RAM incase the images are large
 image_data =large_image[0].data
 image_header= large_image[0].header
