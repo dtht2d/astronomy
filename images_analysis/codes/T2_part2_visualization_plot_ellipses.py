@@ -37,6 +37,6 @@ axis.imshow(bkg__subtracted, origin='lower', cmap='gray', norm=normalization)
 axis.xaxis.set_visible(False)
 axis.yaxis.set_visible(False)
 axis.text(50,190,'Detected Object Ellipse', color='white', fontsize=18)
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T2_part2_visualization_plot_ellipse.png',
+plt.savefig('.../plots/T2_part2_visualization_plot_ellipse.png',
             bbox_inches='tight')
 plt.show()
