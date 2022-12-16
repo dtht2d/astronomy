@@ -60,6 +60,6 @@ plt.legend()
 plt.text(.01,.9, 'standard deviation = %s\nmean= %s'
          %(round(best_fit_std,5), round(best_fit_mean,5)), color='red', transform=plt.gca().transAxes)
 plt.text(-0.03,100, 'Distribution of Background Sky Pixels with Gaussian Curve', color='black', fontsize=14)
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T4_histogram_data_with_Gaussian.png',
+plt.savefig('.../plots/T4_histogram_data_with_Gaussian.png',
             bbox_inches='tight')
 plt.show()
