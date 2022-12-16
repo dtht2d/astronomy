@@ -25,5 +25,5 @@ axis.text(2,190,'Cutout Image', color='white', fontsize=16)
 cutout_save= ('/Users/DuongHoang/Research499/Advanced_Image_Analysis/data/cutout_image.fits')
 fits.writeto(cutout_save,data=cutout_data,header=cutout_wcs.to_header())
 #write cutput information as fits file
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T1_large_cutouts_of_image.png', bbox_inches='tight')
+plt.savefig('.../plots/T1_large_cutouts_of_image.png', bbox_inches='tight')
 plt.show()
