@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 import numpy as np
 import sep
-large_image = fits.open('..data/postage_stamp.fits',memmap=True)
+large_image = fits.open('.../data/postage_stamp.fits',memmap=True)
 #the postage_stamp is the cutout from large image
 #memmap will ensure not to overload RAM incase the images are large
 image_data =large_image[0].data
@@ -51,7 +51,7 @@ axs4.xaxis.set_visible(False)
 axs4.yaxis.set_visible(False)
 axs4.text(2,180,'All the sources masked', color='white', fontsize=12)
 
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T3_segmentation_map_mask_objects_zero_source_1.png',
+plt.savefig('.../plots/T3_segmentation_map_mask_objects_zero_source_1.png',
             bbox_inches='tight')
 plt.show()
 
