@@ -44,7 +44,7 @@ axis.text(2,190,'Aperture Photometry of the Detected Objects', color='white', fo
 #title of the plot
 
 
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T5_aperture_photometry.png',
+plt.savefig('.../plots/T5_aperture_photometry.png',
             bbox_inches='tight')
 
 plt.show()
