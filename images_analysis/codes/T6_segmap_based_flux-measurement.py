@@ -36,6 +36,6 @@ axs2.imshow(mask*image_data,origin='lower',cmap='PuBu')
 axs2.xaxis.set_visible(False)
 axs2.yaxis.set_visible(False)
 axs2.text(2,180,'Object 2 in the image', color='black', fontsize=12)
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T6_Segmap_based_flux_measurement.png',
+plt.savefig('.../plots/T6_Segmap_based_flux_measurement.png',
             bbox_inches='tight')
 plt.show()
