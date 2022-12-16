@@ -78,5 +78,5 @@ axs5.xaxis.set_visible(False)
 axs5.yaxis.set_visible(False)
 axs5.text(2,89,'Objects 5', color='red', fontsize=14)
 
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T1_5_slected_objects_image.png', bbox_inches='tight')
+plt.savefig('.../plots/T1_5_slected_objects_image.png', bbox_inches='tight')
 plt.show()
