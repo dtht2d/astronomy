@@ -36,6 +36,6 @@ plt.yticks([0,20,40,60,80],fontsize=18)
 plt.ylabel('Number',fontsize=16)
 plt.xlabel('Pixel Values', fontsize=16)
 plt.text(-0.03, 100, 'Distribution of Background Sky Pixels', color='black', fontsize=14)
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T4_a_distribution_of_background_sky.png',
+plt.savefig('.../plots/T4_a_distribution_of_background_sky.png',
             bbox_inches='tight')
 plt.show()
