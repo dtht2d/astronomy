@@ -34,6 +34,6 @@ axis.imshow(bkg__subtracted, origin='lower', cmap='gray', norm=normalization)
 axis.xaxis.set_visible(False)
 axis.yaxis.set_visible(False)
 axis.text(2,180,'Detected Object', color='white', fontsize=18)
-plt.savefig('/Users/DuongHoang/Research499/Advanced_Image_Analysis/plots/T2_part1_visualization_plot_circle.png',
+plt.savefig('.../plots/T2_part1_visualization_plot_circle.png',
             bbox_inches='tight')
 plt.show()
